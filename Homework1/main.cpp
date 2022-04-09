@@ -39,7 +39,8 @@ int main( int argc, char ** argv )
 
     // Checking, whether the correct hash function was entered
 
-    if (!type) {
+    if (!type) 
+    {
         printf("Hash %s doesn't exist.\n", hashFunction);
         return 3;
     }
@@ -49,9 +50,12 @@ int main( int argc, char ** argv )
         return 4;
 
 
-    for ( int i = 0 ; i < INT32_MAX ; ++i ) { // Iterating through range of int to generate texts to be hashed
+    for ( int i = 0 ; i < INT32_MAX ; ++i ) 
+    { // Iterating through range of int to generate texts to be hashed
+        
         string text = to_string( i );
-        for ( int i = 0 ; i < text.size() ; ++i ) {
+        for ( int i = 0 ; i < text.size() ; ++i ) 
+        {
             openText[i] = text[i];
         }
         openText[text.size()] = '\0';
