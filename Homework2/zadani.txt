@@ -1,0 +1,3 @@
+Stáhněte si libovolný obrázek ve formátu TGA.
+Napište program, který zkopíruje hlavičku a zašifruje část souboru s obrazovými daty pomocí AES v módu ECB. Výstupní soubor se bude jmenovat (původní_jméno)_ecb.tga.
+Napište program, který dešifruje obrázek zašifrovaný prvním programem. Výstupní soubor se bude jmenovat (původní_jméno)_dec.tga
