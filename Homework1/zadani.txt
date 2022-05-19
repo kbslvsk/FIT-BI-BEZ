@@ -1,0 +1,9 @@
+Napište program, který nalezne libovolnou zprávu, jejíž hash (SHA-512) začíná zleva na posloupnost nulových bitů:
+
+Počet nulových bitů je zadán celým číslem jako parametrem na příkazové řádce.
+Pořadí bitů je big-endian: Bajt 0 od MSB do LSB, Bajt 1 od MSB do LSB, …, poslední bajt od MSB do LSB.
+Součástí odevzdaného řešení může být (v závislosti na cvičícím) i jednoduchý Makefile.
+Návratové hodnoty programu jsou standardní, nula v případě úspěchu, jinak nenula.
+Výstupem jsou dva hexadecimální řetězce oddělené novou řádkou:
+První řádek obsahuje data, pro které byl nalezen příslušný hash
+Druhý řádek obsahuje hash této zprávy
